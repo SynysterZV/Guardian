@@ -1,0 +1,29 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "env-cmd node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "imports": {
+    "#handlers/*": "./dist/handlers/*.js",
+    "#structures/*": "./dist/structures/*.js",
+    "#util/*": "./dist/util/*.js",
+    "#types/*": "./dist/types/*.js"
+  },
+  "dependencies": {
+    "colorette": "^2.0.16",
+    "discord.js": "^13.2.0",
+    "glob": "^7.2.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.2.0",
+    "env-cmd": "^10.1.0"
+  }
+}
