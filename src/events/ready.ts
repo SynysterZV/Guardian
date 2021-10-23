@@ -1,4 +1,5 @@
 import type { Event } from "../types/Event" 
+
 export const event: Event = {
     name: "ready",
     async exec(client) {

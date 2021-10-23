@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "type": "module",
   "imports": {
     "#handlers/*": "./dist/handlers/*.js",
     "#structures/*": "./dist/structures/*.js",
